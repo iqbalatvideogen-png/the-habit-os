@@ -1,0 +1,37 @@
+{
+  "name": "the-habit-os",
+  "version": "1.0.0",
+  "description": "The Habit OS: Build a Life That Runs on Great Habits - The Definitive Operating System for Behavior Change in the AI Era",
+  "main": "scripts/generate-pdf.js",
+  "scripts": {
+    "generate-pdf": "node scripts/generate-pdf.js",
+    "build": "npm run generate-pdf"
+  },
+  "keywords": [
+    "habits",
+    "self-improvement",
+    "productivity",
+    "psychology",
+    "neuroscience",
+    "behavior-change",
+    "AI-era",
+    "digital-wellness"
+  ],
+  "author": "MD Iqbal Bajmi",
+  "license": "CC-BY-NC-SA-4.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iqbalatvideogen-png/the-habit-os.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iqbalatvideogen-png/the-habit-os/issues"
+  },
+  "homepage": "https://github.com/iqbalatvideogen-png/the-habit-os#readme",
+  "dependencies": {
+    "marked": "^11.1.1",
+    "puppeteer": "^21.6.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
