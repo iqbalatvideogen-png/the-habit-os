@@ -2,8 +2,6 @@
 
 > *The best way to predict the future is to invent it.* Alan Kay
 
-## Learning Objectives
-
 By the end of this chapter, you will be able to:
 - Understand the fundamentals of artificial intelligence and machine learning
 - Identify how AI is transforming various industries and daily life
@@ -25,6 +23,168 @@ Key AI Milestones:
 - 2016: AlphaGo defeats Lee Sedol in Go
 - 2022: Stable Diffusion and DALL-E 2 - AI-generated art goes mainstream
 - 2022: ChatGPT launch - 100 million users in 2 months
+
+### The AI Era Habits Framework
+
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="aiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="humanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="comboGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+    <filter id="aiShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="4" dy="4" stdDeviation="6" flood-color="rgba(0,0,0,0.1)" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="24" font-weight="600" 
+        fill="#1e293b">
+    AI Era Habits Framework
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="55" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="14" 
+        fill="#64748b">
+    Thriving in the Age of Artificial Intelligence
+  </text>
+  
+  <!-- Three Circles: Human, AI, Centaur -->
+  
+  <!-- Human -->
+  <circle cx="200" cy="200" r="80" fill="#d1fae5" stroke="#059669" stroke-width="3" filter="url(#aiShadow)"/>
+  <text x="200" y="185" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="16" font-weight="600" 
+        fill="#059669">
+    HUMAN
+  </text>
+  <text x="200" y="210" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="10" 
+        fill="#047857">
+    Strengths:
+  </text>
+  <text x="200" y="225" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="9" 
+        fill="#047857">
+    • Creativity
+  </text>
+  <text x="200" y="238" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="9" 
+        fill="#047857">
+    • Emotional Intelligence
+  </text>
+  <text x="200" y="251" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="9" 
+        fill="#047857">
+    • Critical Thinking
+  </text>
+  
+  <!-- AI -->
+  <circle cx="600" cy="200" r="80" fill="#e0e7ff" stroke="#3b82f6" stroke-width="3" filter="url(#aiShadow)"/>
+  <text x="600" y="185" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="16" font-weight="600" 
+        fill="#1e40af">
+    AI
+  </text>
+  <text x="600" y="210" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="10" 
+        fill="#2563eb">
+    Strengths:
+  </text>
+  <text x="600" y="225" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="9" 
+        fill="#2563eb">
+    • Pattern Recognition
+  </text>
+  <text x="600" y="238" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="9" 
+        fill="#2563eb">
+    • Data Analysis
+  </text>
+  <text x="600" y="251" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="9" 
+        fill="#2563eb">
+    • Automation
+  </text>
+  
+  <!-- Centaur (Human + AI) -->
+  <circle cx="400" cy="350" r="80" fill="url(#comboGrad)" stroke="#7c3aed" stroke-width="3" filter="url(#aiShadow)"/>
+  <text x="400" y="335" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="16" font-weight="600" 
+        fill="#7c3aed">
+    CENTAUR
+  </text>
+  <text x="400" y="360" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="10" 
+        fill="#7c3aed">
+    Human + AI
+  </text>
+  <text x="400" y="385" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="10" 
+        fill="#7c3aed">
+    = Best Results
+  </text>
+  
+  <!-- Arrows -->
+  <path d="M280 200 L350 200" fill="none" stroke="#059669" stroke-width="3" marker-end="url(#arrowhead-green)"/>
+  <path d="M450 200 L520 200" fill="none" stroke="#3b82f6" stroke-width="3" marker-end="url(#arrowhead-blue)"/>
+  <path d="M280 280 L350 330" fill="none" stroke="#059669" stroke-width="2" marker-end="url(#arrowhead-green)"/>
+  <path d="M450 280 L520 330" fill="none" stroke="#3b82f6" stroke-width="2" marker-end="url(#arrowhead-blue)"/>
+  
+  <!-- Arrowhead definitions -->
+  <defs>
+    <marker id="arrowhead-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#059669"/>
+    </marker>
+    <marker id="arrowhead-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3b82f6"/>
+    </marker>
+    <marker id="arrowhead-purple" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7c3aed"/>
+    </marker>
+  </defs>
+  
+  <!-- Plus sign -->
+  <text x="400" y="280" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="24" font-weight="600" 
+        fill="#7c3aed">
+    +
+  </text>
+  
+  <!-- Description -->
+  <text x="400" y="440" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="12" font-weight="500" 
+        fill="#1e40af">
+    The Centaur Model: Human + AI Collaboration
+  </text>
+  
+  <text x="400" y="460" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="11" 
+        fill="#475569">
+    Research shows that human + AI teams outperform either alone by 200-300%
+  </text>
+  
+  <!-- Source -->
+  <text x="400" y="490" text-anchor="middle" 
+        font-family="Inter, sans-serif" font-size="10" 
+        fill="#94a3b8">
+    Chapters 41-44: AI Era Habits
+  </text>
+</svg>
+*Figure: AI Era Habits Framework - Human + AI collaboration for optimal results*
+
 
 ### How AI Works
 
@@ -184,8 +344,6 @@ Reality: AI is a fundamental technological shift with exponential growth.
 5. AI Ethics Scenario Analysis: Study real-world AI ethics cases
 6. Personal AI Strategy: Create a comprehensive AI plan
 
-## Summary
-
 AI literacy is essential for thriving in the 21st century. As AI transforms industries and daily life, understanding and effectively using AI provides a significant advantage.
 
 Key Takeaways:
@@ -212,8 +370,6 @@ Key Takeaways:
 - Bender and Koller (2020). On meaning, form, and understanding in the age of data
 - Buolamwini and Gebru (2018). Gender Shades: Intersectional Accuracy Disparities
 - Crandall et al. (2018). Cooperating with machines
-
-## Next Steps
 
 1. Start learning AI basics
 2. Try your first AI tool
