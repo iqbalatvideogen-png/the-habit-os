@@ -7,14 +7,13 @@
 ## 🎯 Learning Objectives
 
 By the end of this chapter, you will be able to:
-
-- Understand the neuroscience of time perception and its impact on productivity
-- Apply evidence-based time management frameworks (Pomodoro, Time Blocking, Eisenhower Matrix)
-- Identify and eliminate time-wasting behaviors using behavioral economics principles
-- Design a personalized time management system aligned with your chronotype
-- Measure and optimize your time usage with data-driven approaches
-- Overcome procrastination through cognitive science techniques
-- Create habits that protect your most valuable resource: focused time
+1. Understand the neuroscience of time perception and its impact on productivity
+2. Apply evidence-based time management frameworks (Pomodoro, Time Blocking, Eisenhower Matrix)
+3. Identify and eliminate time-wasting behaviors using behavioral economics principles
+4. Design a personalized time management system aligned with your chronotype
+5. Measure and optimize your time usage with data-driven approaches
+6. Overcome procrastination through cognitive science techniques
+7. Create habits that protect your most valuable resource: focused time
 
 ---
 
@@ -87,27 +86,55 @@ The **Pareto Principle** states that **80% of results come from 20% of efforts**
 | **Batching** | Similar tasks | Varies | ★★★★☆ | Low |
 | **Two-Minute Rule** | Small tasks | 2 min | ★★★★☆ | Low |
 
-### The Ultimate Time Management System
+### The Eisenhower Matrix Visualized
 
-**Step 1: Time Audit (Week 1)**
-- Track every activity for 7 days using a time tracking app (Toggl, RescueTime)
-- Categorize activities: Deep Work, Shallow Work, Administrative, Social, Leisure
-- Identify your top 3 time-wasters
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="urgentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:0.2" />
+    </linearGradient>
+    <linearGradient id="notUrgentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.2" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <text x="400" y="30" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="600" fill="#1e293b">Time Management Matrix</text>
+  <text x="400" y="55" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#64748b">The Eisenhower Matrix for Priority Management</text>
+  
+  <g transform="translate(150, 100)">
+    <rect x="0" y="0" width="225" height="175" rx="10" ry="10" fill="#fee2e2" stroke="#ef4444" stroke-width="3"/>
+    <text x="112.5" y="25" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#dc2626">URGENT & IMPORTANT</text>
+    <text x="112.5" y="45" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#dc2626">DO NOW</text>
+    <text x="112.5" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#7f1d1d">Cris</text>
+    
+    <rect x="280" y="0" width="225" height="175" rx="10" ry="10" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+    <text x="372.5" y="25" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#166534">NOT URGENT & IMPORTANT</text>
+    <text x="372.5" y="45" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#166534">SCHEDULE</text>
+    <text x="372.5" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#14532d">Planning, Relationships</text>
+    
+    <rect x="0" y="235" width="225" height="175" rx="10" ry="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="3"/>
+    <text x="112.5" y="260" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#d97706">URGENT & NOT IMPORTANT</text>
+    <text x="112.5" y="280" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#d97706">DELEGATE</text>
+    <text x="112.5" y="305" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#92400e">Interruptions, Some emails</text>
+    
+    <rect x="280" y="235" width="225" height="175" rx="10" ry="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="3"/>
+    <text x="372.5" y="260" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#475569">NOT URGENT & NOT IMPORTANT</text>
+    <text x="372.5" y="280" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#475569">ELIMINATE</text>
+    <text x="372.5" y="305" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#64748b">Social media, Trivial tasks</text>
+    
+    <line x1="225" y1="0" x2="225" y2="410" stroke="#e4e4e7" stroke-width="2"/>
+    <line x1="0" y1="235" x2="505" y2="235" stroke="#e4e4e7" stroke-width="2"/>
+  </g>
+</svg>
 
-**Step 2: Chronotype Alignment (Week 2)**
-- Determine your chronotype using the **Morningness-Eveningness Questionnaire (MEQ)**
-- Schedule your most demanding tasks during peak cognitive hours
-- Protect your peak hours from meetings and interruptions
-
-**Step 3: Priority Framework (Week 3)**
-- Use the **Eisenhower Matrix** to categorize all tasks
-- Apply the **80/20 Rule**: Focus on the 20% of tasks that generate 80% of results
-
-**Step 4: Focus Optimization (Week 4)**
-- Implement **Time Blocking**: Assign specific tasks to specific time slots
-- Use **Pomodoro Technique**: 25 min work + 5 min break, repeat 4x, then 15-30 min break
-- Practice **Single-Tasking**: Focus on one task at a time
-- Eliminate **Context Switching**: Batch similar tasks together
+*Figure: The Eisenhower Matrix - Prioritize tasks based on urgency and importance*
 
 ### Digital Time Management Tools
 
